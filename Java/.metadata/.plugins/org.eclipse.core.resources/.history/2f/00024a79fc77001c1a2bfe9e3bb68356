@@ -1,0 +1,24 @@
+
+public class Cliente implements Autenticavel{
+	
+	private AutenticacaoUtil AUTENTICADOR;
+	
+	
+	public Cliente() {
+		this.AUTENTICADOR = new AutenticacaoUtil();
+	}
+	
+	@Override
+	public void setSenha(int senha) {
+		this.AUTENTICADOR.setSenha(senha);;
+		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		return this.AUTENTICADOR.autentica(senha);
+		
+
+	}
+	
+}

@@ -1,0 +1,9 @@
+
+public class TesteSistema {
+	public static void main(String[] args) {
+		Gerente g = new Gerente();
+		g.g
+		SistemaInterno si = new SistemaInterno();
+		si.autentica(g);
+	}
+}

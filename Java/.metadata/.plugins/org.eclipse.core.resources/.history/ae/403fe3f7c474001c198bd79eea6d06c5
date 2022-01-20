@@ -1,0 +1,13 @@
+import javax.management.MBeanRegistration;
+
+public class ControleBonificacao {
+	private double soma;
+	public void registra(Gerente g) {
+		double boni = g.getBonificacao();
+		this.soma += boni; 
+	}
+	MBeanRegistratio
+	public double getSoma() {
+		return soma;
+	}
+}

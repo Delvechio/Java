@@ -1,0 +1,13 @@
+import java.awt.geom.CubicCurve2D;
+
+public class TesteContas {
+
+	public static void main(String[] args) {
+		ContaCorrente cc =new ContaCorrente(111, 111);
+		cc.deposita(100.0);
+		
+		ContaPoupanca cPoupanca = new ContaPoupanca(222, 222);	
+		cPoupanca.deposita(200.0);
+	}
+
+}

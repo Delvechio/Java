@@ -1,7 +1,0 @@
-
-public class SistemaInterno {
-	private int 
-	public void autentica(Gerente g) {
-		g.autentica(senha);
-	}
-}
